@@ -1,5 +1,6 @@
 /** 
- * every function while executing has ref to current execcution cotext which has this object.
+ * every function while executing has ref to current execcution cotext which has this object.(this object gets resolved by dynamic scoping, )
+ * u can never mix dynamic and lexical scoping
  * this is always an object.
  * 
  * what is execution context: where and how the function is called.
@@ -43,6 +44,6 @@ foo.bind({ bar: "bar6" }, [1, 2, 3, 4])();
 
 
 
- 
+
 
  // (binding rule precedence order) hard > explicit > implicit > default
