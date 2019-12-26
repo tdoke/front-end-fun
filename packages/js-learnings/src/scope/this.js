@@ -60,13 +60,13 @@ foo.bind({ bar: "bar6" }, [1, 2, 3, 4])();
 console.log("***** understanding new keyword ************************");
 function foo(){
   this.baz = "baz";
-  console.log(this.bar +" "+baz);
+  console.log("print bar,baz",this.bar +" "+baz);
 }
 var bar = "bar";
 var baz = new foo();
-console.log(baz);
+console.log("print this from foo", baz);
 
-// find the call site and ask 4 questions(questions.png)
+// to find "this" binding, find the call site and ask 4 questions(questions.png)
 // order of precedence for this (new > explicit binding > implicit binding > default binding)
 
 
