@@ -18,6 +18,8 @@ var Bar = Object.create(Foo); // Foo is set as prototype of Bar.
 Bar.speak = function() {
   console.log("Hello", this.identify());
 };
+Bar.init("Bar");
+Bar.speak();
 
 var b1 = Object.create(Bar); // Bar is set as prototype of b1.
 b1.init("b1");
