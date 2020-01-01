@@ -28,5 +28,5 @@ fetchCharacters();
  * 3] when async operation completes, lib puts data on promise object, this leads to call of resolve function registered by client.
  *   client --> Promise <--- lib
  * 4] in this case resolve functions is not executed inside lib, it is executed inside Promise object, which guarentees its safety.
- * 
+ *  write your own promise to understand promise more.
 */
