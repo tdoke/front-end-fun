@@ -30,9 +30,12 @@ console.log(a1.constructor === Foo);
 console.log(a1.constructor === a2.constructor);
 console.log(a1.__proto__ === Foo.prototype);
 /** 
- * to access prototype of a function Foo.prototype
- * to access prototype of object a2.__proto__
- * prototype is always an object.
+ * to access prototype of a function, Foo.prototype
+ * to access prototype of object, a2.__proto__
+ * to access function prototype of a function, Foo.__proto__
+ * a js function points to two prototypes
+ *  Foo.prototype is object prototype
+ *  Foo.__proto__ is a function prototype.
  */
 console.log(a2.__proto__ === Foo.prototype);
 console.log(a1.__proto__ === a2.__proto__);

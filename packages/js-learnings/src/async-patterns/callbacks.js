@@ -32,5 +32,5 @@ fetchCharacters();
  *    library to execute callback(some part of our code) in some later time. That library might execute callback more than once :(.
  *    so we are giving part of our code to this external library, and we have no control over when this code will be executed or how many times it will get
  *    executed. THATS THE real issue with callbacks. One way of solving this is Promises.
- *    callback is inversion of control i.e giving control of your program flow to outside function i.e lib.
+ *    callback is inversion of control i.e giving up control of your program flow to outside function i.e lib.
  */
