@@ -28,7 +28,7 @@ var a = new Foo("a1");
 console.log("constructor functions prototype(Foo.prototype) points to Object.prototype", Foo.prototype.__proto__ === Object.prototype)
 console.log('instances prototype points to constructor functions prototype', a.__proto__ === Foo.prototype);
 console.log("(prototype chaining) instance proto > function constructor proto -> Object proto",a.__proto__.__proto__ === Object.prototype);
-
+console.log('a.prototype does not exists ---->', a.prototype);
 /*
 Object literal is also created using Object function, thats why Object literals prototype points to Object functions 
 prototype
