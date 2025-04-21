@@ -36,3 +36,9 @@ let x = 10;
 console.log(x);
 const x = 10;
 // console output: Uncaught ReferenceError: x is not defined
+
+/** 
+ * hoisted = function declarations, var declarations
+ * not hoisetd = function expressions, const, let 
+ * 
+*/
