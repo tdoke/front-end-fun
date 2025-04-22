@@ -15,7 +15,7 @@ function fooWithLet() {
   for (let i = 0; i < 10; i++) {
     console.log('do')
   }
-  console.log(i); // i is not defined
+  console.log(i); // Uncaught ReferenceError: i is not defined
 }
 
 foo();

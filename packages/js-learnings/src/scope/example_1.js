@@ -45,7 +45,7 @@ ReferenceError: bam is not defined
 */
 
 /*
-undefined vs ref not declared
+undefined vs ReferenceError: bam is not defined
 undefined = variable is registerd on some scope and it is not assigned a value yet
-undeclared = variable is not registered on any scope
+ReferenceError: bam is not defined = variable is not registered on any scope
 */

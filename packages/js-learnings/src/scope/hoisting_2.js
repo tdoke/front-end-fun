@@ -39,6 +39,6 @@ const x = 10;
 
 /** 
  * hoisted = function declarations, var declarations
- * not hoisetd = function expressions, const, let 
+ * not hoisetd = function expressions, const, let, assignment expressions 
  * 
 */
